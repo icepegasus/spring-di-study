@@ -15,7 +15,7 @@ public class InlineExamConsole implements ExamConsole {
 	
 	public InlineExamConsole() {
 		System.out.println("constructor");
-	}
+	} 
 	
 	public InlineExamConsole(Exam exam) {
 		System.out.println("overloeaded constructor");

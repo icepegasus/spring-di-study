@@ -8,10 +8,10 @@
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd
 		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.3.xsd">
 	
-	<context:component-scan base-package="spring.di.ui, spring.di. "  />
+	<context:component-scan base-package="spring.di.ui"  />
 	<!--Exam exam = new NewlecExam(); -->
-	<!-- <bean id="exam1" class="spring.di.entity.NewlecExam" p:kor="10" p:eng="10" />
-	<bean id="exam2" class="spring.di.entity.NewlecExam" p:kor="20" p:eng="20" /> -->
+	<bean id="exam" class="spring.di.entity.NewlecExam" p:kor="10" p:eng="10" />
+	<!-- <bean id="exam2" class="spring.di.entity.NewlecExam" p:kor="20" p:eng="20" /> -->
 	
 	
 	<!-- <bean id="exam" class="spring.di.entity.NewlecExam" >
